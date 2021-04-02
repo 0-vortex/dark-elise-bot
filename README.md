@@ -58,7 +58,7 @@ Without these variables the application will fail to start, so in order for the 
 
 ```shell
 BOT_TOKEN=UzE8OTY2NTBzNjczNzkwNDY0.BTWWBw.UwhtObbCJxVFLRkhqx48I7jL8Ys
-NODE_ENV=development
+NPM_CONFIG_PRODUCTION=development
 ```
 
 To develop locally just run:

@@ -4,7 +4,7 @@ const args = {
   level: 'debug',
 };
 
-if (process.env.NODE_ENV === 'development') {
+if (process.env.NPM_CONFIG_PRODUCTION === 'development') {
   (args.prettyPrint = {
     colorize: true,
     levelFirst: true,

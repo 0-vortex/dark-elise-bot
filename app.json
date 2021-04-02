@@ -13,7 +13,7 @@
       "description": "Secret bot token frod discord application dashboard",
       "generator": "secret"
     },
-    "NODE_ENV": {
+    "NPM_CONFIG_PRODUCTION": {
       "description": "Anything except development disables logging",
       "value": "production"
     }
