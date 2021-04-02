@@ -1,0 +1,28 @@
+name: docs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Generate documentation
+        run: |
+          mkdir -p dist
+          cp README.md dist/index.md
+          cp _config.yml dist/
+
+      - name: Deploy to static branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          commit_message: ${{ github.event.head_commit.message }}
+          enable_jekyll: true
+          cname: dark-elise.vortex.name

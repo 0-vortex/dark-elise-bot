@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  database:
+    image: postgres:13-alpine
+    container_name: "deb-postgres"
+    environment:
+      POSTGRES_USER: "deb-control"
+      POSTGRES_PASSWORD: "S^DT%N%^&DN"
+      POSTGRES_DB: "deb-dev"
+    ports:
+      - 5432:5432
+    volumes:
+      - ps-data:/var/lib/postgresql/data
+      - .:/repository
+
+volumes:
+  ps-data:
+    driver: local
