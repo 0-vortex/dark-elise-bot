@@ -40,7 +40,7 @@
     "docker:reload": "npm run docker:down && npm run docker:up",
     "docker:build": "docker build --no-cache .",
     "build": "npm ci && npm run lint",
-    "start": "node -r dotenv/config ./src",
+    "start": "nodemon -r dotenv/config ./src",
     "format": "eslint ./src --fix --report-unused-disable-directives",
     "test": "app.json validate",
     "push": "cz"
