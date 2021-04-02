@@ -1,0 +1,8 @@
+title: dark-elise-bot
+description: Dark Elise is an open source, multi-functional Discord bot that is constantly growing.
+show_downloads: true
+theme: jekyll-theme-midnight
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
