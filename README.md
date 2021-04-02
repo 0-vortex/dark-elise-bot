@@ -2,6 +2,7 @@
 
 [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
  [![License](https://img.shields.io/github/license/0-vortex/workers-lastfm-shields)](./LICENSE)
+ [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F0-vortex%2Fdark-elise-bot.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2F0-vortex%2Fdark-elise-bot?ref=badge_shield)
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
@@ -74,3 +75,7 @@ This repository uses `husky` with pre-commit and message hooks. All you need to 
 ```shell
 npm run push
 ```
+
+## License
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F0-vortex%2Fdark-elise-bot.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F0-vortex%2Fdark-elise-bot?ref=badge_large)
