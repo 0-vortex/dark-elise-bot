@@ -16,6 +16,10 @@
     "NPM_CONFIG_PRODUCTION": {
       "description": "This always has to be true",
       "value": "true"
+    },
+    "RICH_PRESENCE_STATUS": {
+      "description": "Set to true for default message or set your own value",
+      "value": "true"
     }
   },
   "formation": [

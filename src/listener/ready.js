@@ -20,7 +20,11 @@ class ReadyListener extends Listener {
     logger.info(`I am ready! Logged in as ${client.user.tag}!`);
     logger.info(`Bot has started, with ${userCount} users, in ${channelCount} channels of ${guildCount} guilds.`);
 
-    client.user.setActivity('with weapons bruh');
+    if (typeof process.env.RICH_PRESENCE_STATUS !== 'undefined') {
+      client.user.setActivity(
+        process.env.RICH_PRESENCE_STATUS === 'true' ? 'with technology' : process.env.RICH_PRESENCE_STATUS,
+      );
+    }
   }
 }
 

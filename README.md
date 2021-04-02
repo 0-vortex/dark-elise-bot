@@ -14,7 +14,7 @@ Dark Elise is an open source, multi-functional Discord bot that is constantly gr
 
 The codebase also serves as a base framework to easily create Discord bots of all kinds.
 
-You can test drive the ping command by using [this link](https://discord.com/api/oauth2/authorize?client_id=319966503673790464&permissions=93248&scope=bot).
+You can test drive the ping command by using [this link](https://discord.com/api/oauth2/authorize?client_id=827645717051867196&permissions=93248&scope=bot).
 
 ## Folder structure
 
@@ -60,6 +60,7 @@ Without these variables the application will fail to start, so in order for the 
 ```shell
 BOT_TOKEN=UzE8OTY2NTBzNjczNzkwNDY0.BTWWBw.UwhtObbCJxVFLRkhqx48I7jL8Ys
 NPM_CONFIG_PRODUCTION=false
+RICH_PRESENCE_STATUS=true
 ```
 
 To develop locally just run:
