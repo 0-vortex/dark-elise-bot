@@ -3,6 +3,8 @@
 [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
  [![License](https://img.shields.io/github/license/0-vortex/workers-lastfm-shields)](./LICENSE)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ![Beings of pure light descend into darkness to create new realities.](https://cdn.discordapp.com/app-icons/319966503673790464/9951dae7aa67afda1a674f4c8d3d1d9e.png?size=128)
 
 ## Overview
