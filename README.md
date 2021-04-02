@@ -1,11 +1,15 @@
 # dark-elise-bot
 
 [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F0-vortex%2Fdark-elise-bot.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2F0-vortex%2Fdark-elise-bot?ref=badge_shield)
  [![License](https://img.shields.io/github/license/0-vortex/workers-lastfm-shields)](./LICENSE)
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ![Beings of pure light descend into darkness to create new realities.](https://cdn.discordapp.com/app-icons/319966503673790464/9951dae7aa67afda1a674f4c8d3d1d9e.png?size=128)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F0-vortex%2Fdark-elise-bot.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F0-vortex%2Fdark-elise-bot?ref=badge_large)
 
 ## Overview
 
