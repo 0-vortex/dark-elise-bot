@@ -1,0 +1,39 @@
+{
+  "name": "dark-elise-bot",
+  "description": "Dark Elise is an open source, multi-functional Discord bot that is constantly growing.",
+  "keywords": [
+    "nodejs",
+    "discord-akairo"
+  ],
+  "website": "https://dark-elise.vortex.name",
+  "repository": "https://github.com/0-vortex/dark-elise-bot",
+  "logo": "https://cdn.discordapp.com/app-icons/319966503673790464/9951dae7aa67afda1a674f4c8d3d1d9e.png?size=512",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Secret bot token frod discord application dashboard",
+      "generator": "secret"
+    },
+    "NODE_ENV": {
+      "description": "Anything except development disables logging",
+      "value": "production"
+    }
+  },
+  "formation": [
+    {
+      "worker": {
+        "quantity": 1,
+        "size": "standard-1x"
+      }
+    },
+    {
+      "web": {
+        "quantity": 0
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

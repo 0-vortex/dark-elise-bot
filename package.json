@@ -21,6 +21,7 @@
     "pino": "^6.11.2"
   },
   "devDependencies": {
+    "app.json": "^1.3.0",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
     "dotenv": "^8.2.0",
@@ -41,7 +42,7 @@
     "build": "npm ci && npm run lint",
     "start": "node -r dotenv/config ./src",
     "format": "eslint ./src --fix --report-unused-disable-directives",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "app.json validate",
     "push": "cz"
   },
   "husky": {
