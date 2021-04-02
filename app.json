@@ -14,8 +14,8 @@
       "generator": "secret"
     },
     "NPM_CONFIG_PRODUCTION": {
-      "description": "Anything except development disables logging",
-      "value": "production"
+      "description": "This always has to be true",
+      "value": "true"
     }
   },
   "formation": [
